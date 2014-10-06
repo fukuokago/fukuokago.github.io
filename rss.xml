@@ -1,24 +1,21 @@
----
-layout: nil
----
 <?xml version="1.0" encoding="utf-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <link>{{ site.description | xml_escape }}</link>
-    <atom:link rel="self" type="application/rss+xml" href="{{ site.baseurl | xml_escape }}{{ page.url | xml_escape}}" />
-    <description>{{ site.description | xml_escape }}</description>
-    <pubDate>{{ site.time | date:"%a, %d %b %Y %H:%M:%S +0900" }}</pubDate>
-    <lastBuildDate>{{ site.time | date:"%a, %d %b %Y %H:%M:%S +0900" }}</lastBuildDate>
-    {% for post in site.posts | limit:25 %}
+    <title></title>
+    <link></link>
+    <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
+    <description></description>
+    <pubDate>Mon, 06 Oct 2014 12:00:26 +0900</pubDate>
+    <lastBuildDate>Mon, 06 Oct 2014 12:00:26 +0900</lastBuildDate>
+    
     <item>
-      <title>{{ post.title | xml_escape }}</title>
-      <link>{{ site.baseurl | xml_escape }}{{ post.url | xml_escape }}</link>
-      <guid isPermaLink="false">tag:vim-jp.org,{{ post.date | date:"%Y/%m/%d" }}:{{ post.url | xml_escape }},rev:1</guid>
-      <pubDate>{{ post.date | date:"%a, %d %b %Y %H:%M:%S +0900" }}</pubDate>
+      <title>Welcome to Fukuoka.go!</title>
+      <link>/2014/10/06/Welcome to Fukuoka.go!.html</link>
+      <guid isPermaLink="false">tag:vim-jp.org,2014/10/06:/2014/10/06/Welcome to Fukuoka.go!.html,rev:1</guid>
+      <pubDate>Mon, 06 Oct 2014 09:54:48 +0900</pubDate>
       <author>vim-jp</author>
-      <description>{{ post.content | xml_escape }}</description>
+      <description></description>
     </item>
-    {% endfor %}
+    
   </channel> 
 </rss>
