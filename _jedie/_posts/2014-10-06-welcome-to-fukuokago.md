@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Fukuoka.go!"
+title:  "Welome to Fukuoka.go!"
 date:   2014-10-06 09:45:47
 ---
 

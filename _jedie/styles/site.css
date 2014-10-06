@@ -1,0 +1,82 @@
+body {
+  font-family: Sans;
+}
+
+a {
+  color: #00afdd;
+}
+
+a:hover {
+  color: #2dd3fe;
+}
+
+header {
+  padding: 1em 0;
+  text-align: center;
+}
+
+header a {
+  color: #000;
+  text-decoration: none;
+  background-image: url("/images/gopher_ramen.png");
+  background-size: 200px 200px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  font-size: 1em;
+  width: 200px;
+  height: 1.5em;
+  display: block;
+  overflow: hidden;
+  padding: 200px 0 0;
+  margin: auto;
+  text-align: center;
+}
+
+header a:hover {
+  color: #333;
+}
+
+header a .ext {
+  color: #dd2200;
+}
+
+header h1 {
+  font-size: 2em;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  text-align: center;
+}
+
+header p {
+  font-size: .8em;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 1em;
+}
+
+section h2, section h3, section h4, section h5 {
+  font-weight: normal;
+}
+
+section .post {
+  padding-bottom: 2em;
+}
+
+footer {
+  padding: 1em;
+  border-top: 1px solid #999;
+}
+
+footer p {
+  font-size: .8em;
+  color: #888;
+  display: inline;
+  padding-right: .5em;
+}
+
