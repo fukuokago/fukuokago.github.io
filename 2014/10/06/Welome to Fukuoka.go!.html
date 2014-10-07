@@ -14,20 +14,23 @@
   </script>
 </head>
 <body>
-  <div>
-    <header>
+  <div class="wrap">
+    <header id="global-header">
       <h1><a href="/">Fukuoka<span class="ext">.go</span></a></h1>
       <p>A Gopher Community in Fukuoka</p>
     </header>
   </div>
 
-  <div>
-  <section>
-<h2>Welome to Fukuoka.go!</h2>
-<p class="meta">2014/10/06 09:43:45</p>
+  <div class="wrap">
+    <section id="main-content">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-subject">Welome to Fukuoka.go!</h1>
+    <p class="post-meta">2014/10/07 10:21:40</p>
+  </header>
 
-<div class="post">
-<h2>Fukuoka.goとは？</h2>
+  <section class="post-body">
+    <h2>Fukuoka.goとは？</h2>
 
 <p>Fukuoka.goは、福岡市周辺のGopherが集まるコミュニティで、Go言語やりたい！やってる
 ！という人が集まって情報交換したり、もくもくしたりする会です！</p>
@@ -42,16 +45,22 @@
 <p>議論はgithubの<a href="https://github.com/fukuokago">fukuokagoオーガニゼーション</a>アカウントのissueでやっております。ま
 た、成果物も<a href="https://github.com/fukuokago">そちら</a>に追々pushしていきます。</p>
 
-</div>
-
   </section>
+</article>
+
+    </section>
   </div>
 
-  <div>
-    <footer>
+  <div class="wrap">
+    <footer id="global-footer">
       <p>Copyright &copy; 2014 Fukuoka.go</p>
-      <p>Powered by jedie. Published with GitHub Pages</p>
+      <p>Powered by <a href="https://github.com/mattn/jedie">jedie</a></p>
+      <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
     </footer>
   </div>
+
+  <nav id="forkme">
+    <p><a href="https://github.com/fukuokago/fukuokago.github.io"><span id="forkme-message">Fork me</span> on GitHub</a></p>
+  </nav>
 </body>
 </html>
