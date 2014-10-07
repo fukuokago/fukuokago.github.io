@@ -1,21 +1,15 @@
-body {
-  font-family: Sans;
-}
+/* all */
+body { font-family: Sans; }
+a { color: #00afdd; }
+a:hover { color: #2dd3fe; }
 
-a {
-  color: #00afdd;
-}
-
-a:hover {
-  color: #2dd3fe;
-}
-
-header {
+/* header */
+#global-header {
   padding: 1em 0;
   text-align: center;
 }
 
-header a {
+#global-header a {
   color: #000;
   text-decoration: none;
   background-image: url("/images/gopher_ramen.png");
@@ -32,15 +26,15 @@ header a {
   text-align: center;
 }
 
-header a:hover {
+#global-header a:hover {
   color: #333;
 }
 
-header a .ext {
+#global-header a .ext {
   color: #dd2200;
 }
 
-header h1 {
+#global-header h1 {
   font-size: 2em;
   display: inline;
   padding: 0;
@@ -49,34 +43,85 @@ header h1 {
   text-align: center;
 }
 
-header p {
+#global-header p {
   font-size: .8em;
   color: #555;
   margin: 0;
   padding: 0;
 }
 
-section {
+/* content */
+#main-content {
   padding: 1em;
 }
 
-section h2, section h3, section h4, section h5 {
-  font-weight: normal;
-}
-
-section .post {
+/* content > post */
+.post {
   padding-bottom: 2em;
 }
 
-footer {
+.post-header {
+  padding: 0 0 1.5em;
+  margin: 0;
+}
+
+.post-subject {
+  font-size: 2em;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.post-meta {
+  font-size: .8em;
+  font-weight: bold;
+  color: #888;
+  padding: 0;
+  margin: 0;
+}
+
+.post-body h2, .post-body h3, .post-body h4, .post-body h5 {
+  font-weight: normal;
+}
+
+.post-body h2 {
+  color: #dd2200;
+  font-size: 1.5em;
+}
+
+/* footer */
+#global-footer {
   padding: 1em;
   border-top: 1px solid #999;
 }
 
-footer p {
+#global-footer p {
   font-size: .8em;
   color: #888;
   display: inline;
   padding-right: .5em;
 }
 
+/* other */
+#forkme {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#forkme p {
+  font-size: .7em;
+  color: #999;
+  padding: .5em;
+  margin: 0;
+  font-weight: normal;
+}
+
+#forkme a {
+  color: #999;
+  text-decoration: none;
+}
+
+#forkme-message {
+  font-weight: bold;
+}
