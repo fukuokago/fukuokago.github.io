@@ -1,12 +1,10 @@
 /* all */
-body { font-family: Sans; }
+body {
+  font-family: Sans;
+  -webkit-text-size-adjust: 100%;
+}
 a { color: #00afdd; }
 a:hover { color: #2dd3fe; }
-
-@media screen and (min-width: 15em) and (max-width: 30em) {
-  h1{font-size:32px;font-size:2rem;line-height:1.5;margin-bottom:24px;margin-bottom:1.5rem}
-  h2{font-size:24px;font-size:1.5rem;line-height:1;margin-bottom:24px;margin-bottom:1.5rem}
-}
 
 /* header */
 #global-header {
@@ -142,4 +140,11 @@ a:hover { color: #2dd3fe; }
 
 #forkme-message {
   font-weight: bold;
+}
+
+/* iphone5 */
+@media screen and (device-aspect-ratio: 40/71) {
+}
+/* iphone6 */
+@media screen and (device-aspect-ratio: 667/375) {
 }
