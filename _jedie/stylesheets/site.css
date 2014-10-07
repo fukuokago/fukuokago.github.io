@@ -3,6 +3,11 @@ body { font-family: Sans; }
 a { color: #00afdd; }
 a:hover { color: #2dd3fe; }
 
+@media screen and (min-width: 15em) and (max-width: 30em) {
+  h1{font-size:32px;font-size:2rem;line-height:1.5;margin-bottom:24px;margin-bottom:1.5rem}
+  h2{font-size:24px;font-size:1.5rem;line-height:1;margin-bottom:24px;margin-bottom:1.5rem}
+}
+
 /* header */
 #global-header {
   padding: 1em 0;
@@ -125,7 +130,7 @@ a:hover { color: #2dd3fe; }
 #forkme p {
   font-size: .8em;
   color: #999;
-  padding: .5em;
+  padding: .7em;
   margin: 0;
   font-weight: normal;
 }

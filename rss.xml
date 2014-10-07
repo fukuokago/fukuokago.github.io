@@ -3,18 +3,18 @@
   <channel>
     <title></title>
     <link></link>
-    <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
+    <atom:link rel="self" type="application/rss+xml" href="" />
     <description></description>
-    <pubDate>Tue, 07 Oct 2014 18:49:02 +0900</pubDate>
-    <lastBuildDate>Tue, 07 Oct 2014 18:49:02 +0900</lastBuildDate>
+    <pubDate>Wed, 08 Oct 2014 00:55:23 +0900</pubDate>
+    <lastBuildDate>Wed, 08 Oct 2014 00:55:23 +0900</lastBuildDate>
     
     <item>
       <title>Welome to Fukuoka.go!</title>
-      <link>/2014/10/06/Welome to Fukuoka.go!.html</link>
-      <guid isPermaLink="false">tag:vim-jp.org,2014/10/06:/2014/10/06/Welome to Fukuoka.go!.html,rev:1</guid>
-      <pubDate>Mon, 06 Oct 2014 14:44:26 +0900</pubDate>
+      <link>/2014/10/06/welcome-to-fukuokago.html</link>
+      <guid isPermaLink="false">tag:vim-jp.org,2014/10/06:/2014/10/06/welcome-to-fukuokago.html,rev:1</guid>
+      <pubDate>Mon, 06 Oct 2014 00:00:00 +0900</pubDate>
       <author>vim-jp</author>
-      <description></description>
+      <description>&#xA;Fukuoka.goとは？&#xA;----------------&#xA;&#xA;Fukuoka.goは、福岡市周辺のGopherが集まるコミュニティで、Go言語やりたい！やってる&#xA;！という人が集まって情報交換したり、もくもくしたりする会です！&#xA;&#xA;開催情報&#xA;--------&#xA;&#xA;コミュニティの開催情報は[Doorkeeper][doorkeeper]を利用しています。&#xA;[Doorkeeper][doorkeeper]をご覧ください。&#xA;&#xA;[doorkeeper]: http://fukuokago.doorkeeper.jp/&#xA;&#xA;議論や成果物など&#xA;----------------&#xA;&#xA;議論はgithubの[fukuokagoオーガニゼーション][github]アカウントのissueでやっております。ま&#xA;た、成果物も[そちら][github]に追々pushしていきます。&#xA;&#xA;[github]: https://github.com/fukuokago&#xA;</description>
     </item>
     
   </channel> 
